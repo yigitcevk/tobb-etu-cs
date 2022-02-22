@@ -2,19 +2,108 @@
   text-align: center;
 }
 
+*{
+  box-sizing: border-box;
+}
+
+img {
+  height: 120px;
+  margin-right: 7px;
+}
+
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
+
+body {
+  font-family: 'Inter', sans-serif;   
+  margin: 0px;
+  background-color: #282D35;
+  height: 100vh;
+  
+}
+
+.head {
+  display: flex;
+  align-items: center;
+  background-color: #21222A;
+  padding: 20px 20px;
+  height: 150px;
+}
+
+.App-logo{
+  height: 120px;
+}
+
+.react-facts, .tobb-etu-cs {
+  margin: 0px;
+}
+
+.react-facts {
+  margin-right: auto;
+  color: #61DAFB;
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.tobb-etu-cs {
+  color: #DEEBF8;
+  font-weight: 600;
+}
+
+.main {
+  padding: 57px 27px;
+  color: white;
+  background-repeat: no-repeat;
+  background-position: right 75%;
+}
+
+.main-title {
+  text-align:left;
+  padding: 20px 80px;
+  margin: 0px;
+  font-size: 50px;
+  letter-spacing: -0.05em;
+}
+
+.main-list {
+  margin-top: 30px;
+  max-width: 400px;
+}
+
+.main-list > li {
+  line-height: 20px;
+  padding-block: 10px;
+}
+
+.main-list > li::marker {
+  font-size: 1.4rem;
+  color: #61DAFB;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+/*
 .App-header {
-  background-color: #282c34;
+  background-color: #656569;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -23,10 +112,8 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+*/
 
-.App-link {
-  color: #61dafb;
-}
 
 @keyframes App-logo-spin {
   from {
